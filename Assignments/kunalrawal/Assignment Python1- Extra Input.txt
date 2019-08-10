@@ -1,0 +1,79 @@
+#Assignment Extra 1 - Input,type conversion
+
+1. WAP to input temp in  fahrenhiet and print in celcius.
+
+f=float(input('Enter the temperature in Fahrenheit :'))
+print('The temperature in celcius is ',(f-32)*(5/9))
+
+2. WAP to input a number and print its square and cube.
+
+r=int(input('Please enter a number'))
+print("The square of the number is ",r*r,"and it's cube is ",r**3)
+
+3. WAP a program to input the number n and m and print n 2 + m 2
+
+n=int(input('Please enter the value of n'))
+m=int(input('Please enter the value of m'))
+print("The value of n2 + m2 is ",(n*n)+(m*m))
+
+4. WAP to input M and N and show M raised to N
+
+m=int(input('Please enter the value of m'))
+n=int(input('Please enter the value of n'))
+print("The value of m to the power of n is ",m**n)
+print("The value of m to the power of n is ",pow(m,n)) 
+
+5. Write a simple intrest calulator
+p=int(input("Pleae enter the principal amount :"))
+r=float(input("Pleae enter the rate of interest :"))
+t=float(input("Pleae enter the time period :"))
+print("The simple interest is",(p*r*t)/100)
+
+6. Input principal, rate and time and print compound interest and amount
+p=int(input("Pleae enter the principal amount :"))
+r=float(input("Pleae enter the rate of interest yearly:"))
+t=float(input("Pleae enter the time period in years :"))
+print("The compound interest is",(p *((1+r/100)**t))-p)
+print("The total amount is",(p *((1+r/100)**t)))
+
+7. WAP to print the sum of first n natural numbers.
+n=int(input("Enter a number :"))
+s = 0
+i = 1 
+while i <= n:
+    s = s + i
+    i = i+1    
+print ("The sum of first",n,"natural number is ",s)
+
+8. WAP to input 2 numbers and swap them.
+n=int(input("Enter the value of n :"))
+m=int(input("Enter the value of m :"))
+s=m
+m=n
+n=s
+print("The value of n is",n," and the value of m is ",m)
+n,m =m,n
+print("The value of n is",n," and the value of m is ",m)
+
+9. WAP to print the ascii values of all white space characters in python
+
+ord(' ')
+
+10. WAP to input a single character and print it's ascii value.
+
+k=input("Please enter a single character :")
+print("The ascii value of the entered character is ",ord(k))
+
+11. WAP that takes area of a circle and gives back the radius and circumference.
+
+a=float(input("Please enter the area of the circle :"))
+print("The radius of the circle is", (a/3.14)**0.5, " and the circumference is ", 2 * 3.4 * ((a/3.14)**0.5))
+
+12. Input marks of 5 subjects out of 100 and print percentage.
+
+a=float(input("Please enter marks obtained in subject a:"))
+b=float(input("Please enter marks obtained in subject b:"))
+c=float(input("Please enter marks obtained in subject c:"))
+d=float(input("Please enter marks obtained in subject d:"))
+e=float(input("Please enter marks obtained in subject e:"))
+print("Your percentage is",(a+b+c+d+e)/5)

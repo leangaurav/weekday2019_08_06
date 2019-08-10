@@ -1,0 +1,84 @@
+Python
+
+1. Input temperature in Fahrenheit in print in Celsius.
+Ans:
+t1= float(input('Enter temperatur in fahrenheit')
+t2= (t1-32)*(5/9)
+print('Temperature in celsius is\n',t2)
+
+2. Write a program to input a number and print its square and cube.
+Ans:
+x=int(input('enter the number'))
+y=x**2
+z=x**3
+print('square of your number is\n',y)
+print('cube of your number is \n',z)
+
+3. WAP to input a number n and a number m and print the result of following
+n2 + m2
+
+Ans:
+x=int(input('enter the first number'))
+y=int(input('enter the second number'))
+print('sum of square of entered number is\n',x**2+y**2)
+
+4. WAP to input a numbers M and N and print result of MN. (use both ** and pow)
+
+Ans:
+m=int(input('enter first number'))
+n=int(input('enter second number'))
+z=pow(m,n)
+o=m**n
+print('first number raise to second number is',z)
+print(o)
+
+
+5. Write a simple interest calculator.
+
+Ans : #simple interest formula is S=(p*r*t)/100
+p=float(input('enter the principal amount'))
+r=int(input('rate of interest'))
+t=int(input('time period'))
+s=(p*r*t)/100
+print('Simple Interest will be',s)
+
+
+6. Input Principal, Rate, Time and print Compound Interest and Amount.
+
+Ans: # compound interest formula is c=p((1+r)n-1)
+p=float(input('enter the principal amount'))
+r=int(input('rate of interest'))
+t=int(input('time period'))
+c=p*((1+r)**t -1)
+print('Compound Interest will be',c)
+
+7. WAP to print sum of first n natural numbers. (n needs to be taken as input).
+Ans:
+
+
+8. WAP to input 2 numbers and swap them. (write using both normal logic with temp variable and
+also the pythonic way).
+9. WAP to print ascii value of all white-space characters present in python.
+10. Input a single character and print its ascii values.
+
+11. WAP that takes area of a circle and gives back the radius and circumference.
+
+Ans:
+
+a=int(input('enter the area of the circle'))
+r=(a/3.14)**0.5
+print('Radius of the circle is\t',r)
+c=2*3.14*r
+print('Circumfrence of the circle is\t',c)
+
+12. We need to input marks in 5 subjects out of 100 and print percentage.
+
+Ans:
+a=int(input('enter marks of maths'))
+b=int(input('enter marks of english'))
+c=int(input('enter marks of science'))
+d=int(input('enter marks of computer science'))
+e=int(input('enter marks of history'))
+z=a+b+c+d+e
+p=(1/5)*z
+print('Your percentage is',p)

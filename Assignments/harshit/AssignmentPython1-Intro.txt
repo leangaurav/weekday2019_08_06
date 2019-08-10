@@ -1,0 +1,61 @@
+Harshit Chaturvedi
+
+1. Predict output
+   s1= 'gaurav'
+   s2='tuteur.py@gmail.com
+   print(lens(s1),len(s2))
+   
+   Ans : 6 19
+  
+2. input string and find lenght
+
+ Ans :  s=str(input('enter the word'))
+        print(len(s))
+  
+3. Enter two number and find sum and difference
+
+Ans : x1=int(input('enter first number'))
+      x2=int(input('enter second number'))
+      z=x1+x2
+      d=x1-x2
+      print('sum of the number is\n',z,'difference of the number is\n',d
+      
+4. predict output
+    s1='ab'
+    s2='cd'
+    s3=s1+s2
+    print(s3)
+   Ans: abcd 
+ 
+ 5.predict output
+    s1='ab'
+    s2='de'
+    s3=s1+s2
+    print(s3)
+    Ans :abde
+    
+ 6.s1='ab'*4
+   print(s1)
+   Ans: abababab
+   
+ 7.s1='ab\n'*4
+   print(s1)
+   Ans: ab
+        ab
+        ab
+        ab
+ 
+ 8. WAP to input a string s and a number n. Print the string n times on the screen, each should
+    appear in a separate line (do not use any kind of loops, use the multiplication operator).
+    
+    Ans : s=str(input())
+          x=int(input())
+          z=s*4
+          print(z)
+          
+  9. predict output
+  
+      res=print('gaurav')
+      print(res)
+      Ans: None
+  

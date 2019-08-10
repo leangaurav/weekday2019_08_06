@@ -1,0 +1,60 @@
+1. Predict output - 6,19
+
+2.s1 = input('Enter the string: ')
+  print(len(s1))
+
+3. n1 = int(input('Enter the first number: '))
+   n2 = int(input('Enter the second number: '))
+   print(n1+n2)
+   print(n1-n2)
+
+4. abde
+
+5. abde
+
+6. abababab
+
+7. ab
+   ab
+   ab
+   ab
+
+8. s = input('Enter the string: ')
+   n = int(input('Enter the number'))
+   print(s*n)
+
+9. Gaurav
+   None
+
+10. <class 'int'>
+
+11. <class 'str'>
+    26
+
+12. sqrt()
+
+13. number = int(input('Enter the number: '))
+    print(math.sqrt(number))
+
+14. n1 = int(input('First number: '))
+    n2 = int(input('Second number: '))
+    n3 = int(input('Third number: '))
+    n4 = int(input('Fourth number: '))
+    tot = n1+n2+n3+n4
+    print(tot/4)
+
+15. Help on built-in function abs in module builtins:
+
+    abs(x, /)
+    Return the absolute value of the argument.
+    Works for int, float and bool but not for str
+
+16. __main__  (Refer: https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
+
+17. __main__ 
+
+18. '__name__' in dir(int) retuned false
+
+19. __main__
+    builtins
+    int

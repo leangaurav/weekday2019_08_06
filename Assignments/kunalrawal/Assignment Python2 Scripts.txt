@@ -1,0 +1,93 @@
+1. 
+    d
+    detneirO tcejbO si nohtyP
+    Python is Object Oriente
+
+    on is 
+
+
+2. 
+    IndexError: string index out of range
+
+
+3.
+    IndexError: string index out of range
+
+
+4.
+    a.
+    6
+    abc
+    3
+    b.
+    ['a#b#c#d#']
+    ['a', 'b', 'c', 'd', '']
+    a$b$c$d$
+    c.
+    av
+    d.
+    False
+    e.
+    0,1,2
+    f.
+    abcba
+    0,0,0,
+
+
+5.
+    s = input("Enter the string:")
+    s = s.split()
+    print (s)
+    s = ''.join(s)
+    print (s)
+
+
+6.
+    list
+
+7.
+    print (dir(str))
+    ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+
+8.
+    x = (dir(str))
+    #print ('rstrip'.find(x,[0,0]))
+    print ('rstrip' in x)
+    True
+
+
+9.
+    i. 
+    s1 = '*****'
+    s2 = '  *  '
+    print (s1,s2,s2,s2,s2, sep = '\n')
+
+    ii.
+    s1 = '*       *'
+    s2 = '* *   * *'
+    s3 = '*   *   *'
+    print (s1,s2,s3,s1, sep = '\n')
+
+10.
+    s = input("Enter the string:")
+    s = s.replace(' ', '\n')
+    print (s)
+
+11.
+    s = input("Enter the name:")
+    u = s.upper()
+    u = u.split() 
+    print (u[0], len(u[0]))
+    print (u[1], len(u[1]))
+    Enter the name:kunal rawal
+    KUNAL 5
+    RAWAL 5
+
+12.
+    s = input("Enter the string:")
+    l = len(s)
+    m= l//2
+    print  (s[:m])
+    print (s[m:])
++

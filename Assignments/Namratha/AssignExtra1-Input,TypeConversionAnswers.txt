@@ -1,0 +1,79 @@
+1. temp = int(input('Enter the temperatue in Fahrenheit: '))
+   newtempC = (temp-32)/1.8
+   print('The temperatue in celsius is:',newtempC)
+
+2. number = int(input('Enter the number: '))
+   sqNum = pow(number,2)
+   cubeNum = pow(number,3)
+   print('Square of the number is: ',sqNum)
+   print('Cube of the number is: ',cubeNum)
+
+3. n = int(input('Enter the value of n: '))
+   m = int(input('Enter the value of m: '))
+   value = (pow(n,2))+(pow(m,2))
+   print('The value is: ',value)
+
+4. m = int(input('Enter the value of m: '))
+   n = int(input('Enter the value of n: '))
+   x = pow(m,n)
+   y = m**n
+   print('The result is :',x,y)
+
+5. p = float(input('Enter the principal amount: '))
+   r = float(input('Enter the rate of interest: '))
+   t = float(input('Enter the time period in years: '))
+   a = p * (1 + (r*t))
+   print('The final investment value is: ',a)
+
+6. principal = float(input('Enter the principal amount: '))
+   rate = float(input('Enter the rate of interest: '))
+   time = float(input('Enter the time period in years: '))
+   compoundInterest = principal * pow((1 + (rate/100)),time)
+   amount = principal + compoundInterest
+   print('The compound interest is: ',compoundInterest)
+   print('The amount is: ',amount)
+
+7. n = int(input('Enter the value of n: '))
+   sNN = n * ((n + 1)/2)
+   print('The sum of first n natural numbers is: ',sNN)
+
+8. METHOD 1:
+   num1 = int(input('Enter the value of num1: '))
+   num2 = int(input('Enter the value of num2: '))
+   print('Value of num1 and num2 before swapping: ',num1,num2)
+   t = num1
+   num1 = num2
+   num2 = t
+   print('Value of num1 and num2 after swapping: ',num1,num2)
+   
+  METHOD 2:
+  num3 = int(input('Enter the value of num3: '))
+  num4 = int(input('Enter the value of num4: '))
+  print('Value of num3 and num4 before swapping: ',num3,num4)
+  num3,num4 = num4,num3
+  print('Value of num3 and num4 before swapping: ',num3,num4)
+
+9. ord(' ')
+
+10. character = input('Enter the character to find its ASCII value: ')
+    print('The ASCII value of the character is: ',ord(character))
+
+11. import math
+
+   area = float(input('Enter the area of a circle: '))
+   pi = 3.14
+   t = area/pi
+   radius = math.sqrt(t)
+   circum = 2 * pi * radius
+   print('The radius of the circle is: ',radius)
+   print('The circumference of the circle is: ',circum)
+
+12. subj1 = float(input('Enter the marks of subj1: '))
+    subj2 = float(input('Enter the marks of subj2: '))
+    subj3 = float(input('Enter the marks of subj3: '))
+    subj4 = float(input('Enter the marks of subj4: '))
+    subj5 = float(input('Enter the marks of subj5: '))
+    s = subj1+subj2+subj3+subj4+subj5
+    percent = (s/500)* 100
+    print('The percentage obtained in %: ',percent)
+

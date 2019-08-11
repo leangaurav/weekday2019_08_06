@@ -1,0 +1,77 @@
+1. a.d
+   b.detneirO tcejbO si nohtyP
+   c.Python is Object Oriente
+   d.on is
+
+2.String Index out of range
+
+3.Yes and the error is name 's' is not defined
+
+4. a(1).6
+   a(2).abc
+   a(3).3
+   
+   b.['a#b#c#d#']
+     ['a','b','c','d','']
+     a$,b$,c$,d$
+
+   c.av
+
+   d.False
+
+   e.0,1,2
+
+   f.abcba
+     0,0,0,
+
+5. a=input('enter a string : ')
+   a=a.replace(" ","")
+   print(a)
+
+6. [] - list
+
+7. print (dir(str))
+   ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+
+8. x=dir(str)
+   print('rstrip' in x)
+   True
+
+9. a.s1="*****"
+     s2="  *  "
+     print(s1,s2,s2,s2,s2,sep='\n')
+   
+   b.s1="*      *"
+     s2="* *  * *"
+     s3="*   *  *"
+     s4="*      *"
+     print(s1,s2,s3,s4,sep='\n')
+
+   c.s1="    ______"
+     s2="     |    |"
+     s3="     o    |"
+     s4="    /|\   |"
+     s5="     |    |"
+     s6="    / \   |"
+     s7="          |"
+     s8="__________|"
+
+     print(s1,s2,s3,s4,s5,s6,s7,s8,sep='\n')
+
+10.s=input("enter a string of words : ")
+   x=s.replace(" ","/n")
+   print(x)
+
+11.s=input("enter your full name with first name and last name : ")
+   u=s.upper()
+   u=s.split()
+   print(u[0], len(u[0]))
+   print(u[1], len(u[1]))
+
+12.s=input("enter a string")
+   l=len(s)
+   a=l//2
+   print(s[:a])
+   print(s[a:])
+
+

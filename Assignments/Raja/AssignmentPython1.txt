@@ -1,0 +1,53 @@
+1. leng of s1 =6, leng of s2=19
+
+
+2.x=input('enter some data: ')
+  print(len(x))
+
+3.x=int(input('enter a number = '))
+y=int(input('enter a number = '))
+print("sum of two numbers is ",(x+y),"difference of two numbers is ",(x-y))
+
+4.abde
+
+5.abde
+
+6.abababab
+
+7.ab
+ab
+ab
+ab
+
+8.s=input("enter a string  : ")
+n=int(input("enter a number to multiply the string : "))
+print((s+'\n')*n)
+
+9.Gaurav
+None
+
+10.int
+
+11.26,string
+
+12. math.sqrt()
+
+13. import math
+    n1=int(input("enter a number to squareroot : ")
+    print(math.sqrt(n1))
+
+14.n1=int(input('enter the num1:'))
+n2=int(input('enter the num2:'))
+n3=int(input('enter the num3:'))
+n4=int(input('enter the num4:'))
+print("Average of n1,n2,n3 and n4 : ",(n1+n2+n3+n4)/4)
+
+15.help(abs) - it returns the absolute value of an integer or float of a number
+
+16.__main__
+
+17.__main__
+
+18.dir(int) - 'No name is not present'
+
+19.__main__  int   builtins

@@ -1,0 +1,83 @@
+1. s[-1] = d
+   detneirO tcejbO si nohtyP
+   Python is Object Oriente
+
+    on is 
+
+2. IndexError: string index out of range
+
+3. No output
+
+4.
+  a.6
+   abc
+    3
+
+  b. ['a#b#c#d#']
+     ['a', 'b', 'c', 'd', '']
+     a$b$c$d$
+
+  c. av
+ 
+  d. False
+
+  e. 0,1,2
+
+  f. abcba
+     0,0,0,
+
+5. str1 = input('Enter the string: ')
+   newString = str1.strip()
+   print(newString)   --- for leading and trailing white spaces
+
+  str12 = input('Enter the string: ')
+  newString12 = str12.replace(" ","")
+  print(newString12)  -- for all white spaces
+
+6. [] denotes indexing. They are used for list.
+
+7. dir(str)
+
+8. 'rstrip' in dir(str) 
+
+9. s1 = '*****'
+   s2 = '  *  '
+   print(s1,s2,s2,s2,s2,sep ='\n')
+
+   s3 = '*     *'
+   s4 = '* * * *'
+   s5 = '*  *  *'
+   s6 = '*     *'
+   print(s3,s4,s5,s6,sep = '\n')
+
+  s7 = '__________________'
+  s8 = ' |                |'
+  s9 = ' o                |'
+  s10= '/|\               |'
+  s11= '/ \               |'
+  s12= '                  |'
+  s13= '__________________ '
+  print(s7,s8,s9,s10,s11,s12,s13,sep = '\n')
+
+
+
+
+10. spaceString = input('Enter a string with white spaces')
+    replacedString = spaceString.replace(" ",'\n')
+    print(replacedString)
+
+11. firstName = input('Enter your first Name: ')
+    lastName = input('Enter your last Name: ')
+    fullName = firstName + " " + lastName
+    newName = fullName.upper()
+    result = newName.replace(" ",'\n')
+    print(result,len(result),sep = '\n')
+    
+OR fullName = input('Enter your full Name: ')
+   fullName = fullName.upper()
+   result = fullName.replace(" ",'\n')
+   print(result,len(result),sep = '\n')
+
+12. string = input('Enter the string value to be split: ')
+    firstpart, secondpart = string[:len(string)//2], string[len(string)//2:]
+    print(firstpart,secondpart)

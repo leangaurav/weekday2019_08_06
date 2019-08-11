@@ -1,0 +1,60 @@
+1. 6 19
+
+2. x=str(input("enter a word"))
+   print(len(x)
+   
+3.x=int(input('enter first number'))
+  y=int(input('enter second number'))
+  print((x+y),(x-y))
+
+4.abde
+
+5.abde
+
+6.abababab
+
+7.ab
+  ab
+  ab
+  ab
+
+8.x=str(input("a string:"))
+  y=int(input("a number:"))
+  print(x*y)
+
+
+9.gaurav
+  none
+
+10.<class'int'>
+
+11.<class'str'>
+   26
+
+12.from math import sqrt
+   sqrt()
+
+13.from math import sqrt
+   x=int(input('enter base:'))
+   y=int(input('enter exponent:'))
+   z=x**y
+   w=int(sqrt(z))
+   print(z,w)
+   
+14.
+
+
+
+
+
+15.abs-return the absolute value of the argument
+
+16.__main__
+
+17.__main__
+
+18.No,  it doesnot contain __name__
+
+19.__main__
+   builtins
+   int   

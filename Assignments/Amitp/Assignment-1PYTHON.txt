@@ -41,10 +41,12 @@
    w=int(sqrt(z))
    print(z,w)
    
-14.
-
-
-
+14.s1=int(input("enter first number:"))
+   s2=int(input("enter second number:"))
+   s3=int(input("enter third number:"))
+   s4=int(input("enter fourth number:"))
+   z=int((s1+s2+s3+s4)/4)
+   print(z)
 
 
 15.abs-return the absolute value of the argument

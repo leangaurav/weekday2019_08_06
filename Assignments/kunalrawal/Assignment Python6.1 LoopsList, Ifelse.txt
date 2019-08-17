@@ -1,0 +1,126 @@
+1. WAP to input a string and print individual characters in the string using for loop.
+
+k=(input("Enter the string :"))
+for i in range(len(k)):
+    print(k[i])
+	
+2. WAP to input a string and print the ASCII value of each character in the string.
+
+k=(input("Enter the string :"))
+for i in range(len(k)):
+    print(ord(k[i]))
+
+3. Write a function that takes a list of numbers from user as argument and returns the sum of only
+odd numbers (Use only for loop. No need to use if statement).
+
+4. WAP to input a list of numbers and store in a tuple. Now input another number and print the
+index of this number in the tuple. [Use index function]
+lst=[]
+for i in range(0,5):
+    n=int(input())
+    lst.append(n)
+print(lst)
+tu=tuple(lst)
+print(tu)
+print(type(tu))
+print(tu.index(5))
+
+5. Create a list of 10 random numbers and then print the list, sum of all numbers and average. Use
+a for loop. Also print elements at only even indexes in the list.
+
+import numpy as np
+a=np.random.randint(10,200,10)
+print(a)
+s=0
+t=0
+for i in a:
+    s+=i
+    t+=1
+    
+print("The sum of the array is :" ,s, ' and the average is ', (s/t))
+
+6. WAP to input 10 numbers repeatedly (using range based for loop) and store them in a list. Print
+the list and sum of numbers in the list.
+
+lst=[]
+sum=0
+for i in range(0,10):
+	num=int(input())
+	lst.append(num)
+	sum+=i
+print(sum)
+print(lst)
+
+7. WAP to input a number and print its table.
+
+n=int(input("Enter a number :"))
+for i in range(1,11):
+    print(n,' * ' ,i ,'=' , n*i )
+
+8. WAP to print total number of spaces in a string (Use for loop to iterate over the string. Don’t use
+count function).
+
+n=str(input('Enter a string :'))
+c=0
+for i in n:
+    if (i== ' '):
+        c+=1
+print(" Number of spaces in the string =",c)
+
+9. WAP to input a string and count number of vowels in the string. [Note: it should work for both
+capital and small alphabets]
+
+n=str(input('Enter a string :'))
+c=0
+for i in n:
+    i=i.lower()
+    if (i in ('a','e','i','o','u')):
+        c+=1
+print("Number of vowels in the string =",c)
+
+10. WAP to input a string and replace all vowels with ‘_’.
+[Hint: Convert string to list. Remember!! Strings are immutable. Replace in the list and then join]
+
+s=str(input("Enter the string:"))
+vowels="aeioAEIOU"
+for vow in vowels:
+    s=s.replace(vow,'_')
+print(''.join(s))
+
+11. find output
+a) Num:  0
+Loop Ends
+b) Num: 0
+
+An exception has occurred, use %tb to see the full traceback.
+
+SystemExit
+
+12. find output
+a) 
+*****
+*****
+*****
+*****
+*****
+
+b) 
+1
+22
+333
+4444
+55555
+
+c)
+1
+22
+333
+4444
+55555
+
+d)
+**
+***
+****
+*****
+******

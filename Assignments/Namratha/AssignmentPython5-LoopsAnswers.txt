@@ -1,0 +1,215 @@
+1. n = int(input("Enter number: "))
+   for i in range(1,n+1):
+      print(i)
+
+2. n = int(input("Enter number: "))
+   tot = 0
+   for i in range(1,n+1):
+       tot+=i
+
+    print("The sum of natural numbers is : ",tot)
+
+3. n = int(input("Enter number: "))
+   tot = 0
+   for i in range(n,0,-1):
+      tot+=i
+
+   print("The sum of natural numbers is : ",tot)
+
+4. n = int(input("Enter the number: "))
+   fact = 1
+   while(n>1):
+      fact = fact * n
+      n = n-1
+
+   print("The factorial of the number is : ",fact)
+
+5. n = int(input("Enter the number: "))
+   f_no = 0
+   s_no = 1
+   for i in range(0,n):
+      n_no = f_no + s_no
+      f_no = s_no
+      s_no = n_no
+      print(n_no)
+
+6. n = input("Enter number: ")
+   s = list(n)
+   print(s)
+  OR
+   n=int(input("Enter a number:"))
+   while(n>0):
+     dig=n%10
+     n=n//10
+     print("The digit is:",dig)
+
+7. n=int(input("Enter a number:"))
+   tot=0
+   while(n>0):
+      dig=n%10
+      tot=tot+dig
+      n=n//10
+      print("The total sum of digits is:",tot)
+
+8. B=0
+   A=1
+   m=int(input("input a number "))
+   for k in range (1,m+1):
+      A =1
+      for i in range (1,k+1):
+         A=i*A
+      B=B+A
+   print("sum of factorial of the number",B)
+
+9. base = int(input("Enter base value: "))
+   exponent = int(input("Enter exponent value: "))
+   i = base
+   while(exponent>1):
+       base = base * i
+       exponent = exponent - 1
+
+   print("The value is: ",base)
+
+10. --def pypart(n): 
+    myList = [] 
+    for i in range(1,n+1): 
+        myList.append("*"*i) 
+    print("\n".join(myList)) 
+ 
+   n = 5
+  pypart(5)
+
+  --def pypart(n): 
+    myList = [] 
+    for i in range(n,0,-1): 
+        myList.append("*"*i) 
+    print("\n".join(myList)) 
+ 
+  n = 5
+  pypart(5)
+
+  --def pypart2(n):    
+    k = 2*n - 2
+  
+    for i in range(0, n): 
+      
+        for j in range(0, k): 
+            print(end=" ") 
+       
+        k = k - 2
+      
+        for j in range(0, i+1): 
+          
+            print("* ", end="") 
+       
+        print("\r")
+  
+  n = 5
+  pypart2(n)
+
+  --def pypart2(n): 
+      
+    k = 2*n - 2
+  
+    for i in range(0, n): 
+      
+        for j in range(0, k): 
+            print(end=" ") 
+       
+        k = k - 1
+      
+        for j in range(0, i+1): 
+          
+            print("* ", end="") 
+       
+        print("\r")
+  
+  n = 4
+  pypart2(n) 
+
+11.--for num in range(6):
+      for i in range(num):
+        print (num, end=" ") 
+    
+    print("\r")
+
+  --lastNumber = 6
+   for row in range(1, lastNumber):
+      for column in range(1, row + 1):
+        print(column, end=' ')
+    print("")
+
+  --for num in range(1,6):
+    for i in range(1,num+1):
+        print (6-num, end=" ") 
+    
+    print("\r")
+
+  --def pypart2(n): 
+      
+    k = 2*n - 2
+  
+    for i in range(0, n): 
+      
+        for j in range(0, k): 
+            print(end=" ") 
+       
+        k = k - 1
+      
+        for j in range(0, i+1): 
+          
+            print(j+1, end="") 
+       
+        print("\r")
+  
+   n = 5
+  pypart2(n) 
+
+12.-- for i in range(65,70):
+      for j in range(65,i+1):
+        print(chr(j), end = '')
+    print("\r")
+
+  --def  contalpha(n): 
+    num = 65
+    for i in range(0, n): 
+        for j in range(0, i+1): 
+            ch = chr(num) 
+            print(ch, end=" ")
+            num = num +1
+        print("\r") 
+  
+    n = 5
+    contalpha(n) 
+
+  --def pypart(n): 
+    myList = [] 
+    num = 65
+    for i in range(1,n+1): 
+        ch = chr(num)
+        myList.append(ch*i)
+        num = num + 1
+    print("\n".join(myList)) 
+    
+ 
+    n = 5
+    pypart(5)
+
+  -- k = 5
+    m = (2 * k) - 2
+    for i in range(0, size):
+      for j in range(0, m):
+        print(end=" ")
+    m = m - 1 
+    k=65
+    for j in range(0, i+1 ):        
+        print(chr(k), end='')
+        k+=1
+    k-=1
+    for l in range(0,i):
+        k-=1
+        print(chr(k), end='')
+    print(" ")
+    
+   
+    

@@ -1,0 +1,160 @@
+1. n1 = int(input("Enter first number: "))
+   n2 = int(input("Enter second number: "))
+   if (n1%n2 == 0):
+      print("True")
+   else:
+      print("False")
+
+2. str1 = input("Enter first word: ")
+   str2 = str1[::-1]
+   str3 = str1.upper()
+   str4 = str2.upper()
+   if (str3 == str4):
+      print("It is a palindrome")
+   else:
+      print("It is not a palindrome")
+
+3. a = int(input("Enter first side: "))
+   b = int(input("Enter second side: "))
+   c = int(input("Enter third side: "))
+   if (a == b and b == c):
+    print("Equilateral")
+   elif (a == b or b == c):
+    print("Isosceles")
+   else:
+    print("Scalene")
+
+4. num = int(input("Enter a number: "))
+   if (num %2 == 0):
+    print("Even")
+   else:
+    print("Odd")
+
+5.age = int(input("Enter your age: "))
+  if (age > 0 and age <= 12):
+    print("Child")
+  elif (age > 12 and age <= 17):
+    print("Teen")
+  elif (age > 17 and age <= 50):
+    print("Adult")
+  elif (age > 50 and age <= 100):
+    print("Senior citizen")
+  else:
+    print("Contratulations")
+
+6. year = int(input("Enter year: "))
+   count = 0
+   while(year>0):
+     year = year//10
+    count = count + 1
+
+    
+   if (count == 4 and year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)):
+    print("Leap year")
+   else:
+    print("Not a leap year")
+
+7. str1 = input("Enter the string: ")
+   length = len(str1)
+   if (length % 2 == 0):
+      print(str1.upper())
+   else:
+      print(str1.lower())
+
+8. str2 = input("Enter the string: ")
+   if ('egg' in str2):
+     print("Non-Veg")
+   else:
+    print("Veg")
+
+9. True , True
+
+  Weird!!, [4, 3, 2, 1]
+
+10. subj1 = int(input("Enter subject 1 marks: "))
+subj2 = int(input("Enter subject 2 marks: "))
+subj3 = int(input("Enter subject 3 marks: "))
+subj4 = int(input("Enter subject 4 marks: "))
+subj5 = int(input("Enter subject 5 marks: "))
+
+percentage = (subj1+ subj2 + subj3 + subj4 + subj5)/5
+print(percentage)
+
+if (percentage >= 90 and percentage <=100):
+    print("Grade A")
+elif (percentage >= 80 and percentage <=89):
+    print("Grade B")
+elif(percentage >= 60 and percentage <=79):
+    print("Grade C")
+else:
+    print("Grade F")
+
+11.  age = int(input("Enter age: "))
+sal = int(input("Enter salary: "))
+
+if(sal > 0 and sal<=250000):
+    if(age> 60 or age<=60):
+        print("sal is: ",(0/100)*sal)
+elif(sal >250000 and sal>=500000):
+    if(age<60):
+        print("sal is: ",(5/100)*sal)
+    else:
+        print("sal is: ",(3/100)*sal)
+elif(sal >500000 and sal>=1000000):
+    if(age<60):
+        print("sal is: ",(10/100)*sal)
+    else:
+        print("sal is: ",(8/100)*sal)
+else:
+    if(age<60):
+        print("sal is: ",(15/100)*sal)
+    else:
+        print("sal is: ",(12/100)*sal)
+
+12.  10, 10,10,OMG
+
+13. def bmi(w,h):
+    bmi=w/(h * h)
+    print(bmi)
+    if (bmi < 18.5 ):
+        print("Under Weight")
+    elif (bmi < 25 and bmi > 18.5):
+        print("Normal Weight")
+    elif(bmi > 25 and bmi < 30):
+        print("Over Weight")
+    else:
+        print("Obese")
+
+
+w = float(input("weight: "))
+h = float(input("height: "))
+bmi(w,h)   
+
+14. a1 = int(input("a1 age: "))
+a2 = int(input("a2 age: "))
+a3 = int(input("a3 age: "))
+
+if(a1>=a2 and a1>=a3):
+    print("a1 is oldest")
+    if(a2>a3):
+        print("a3 is youngest")
+    else:
+        print("a2 is youngest")
+elif(a2>=a1 and a2>=a3):
+    print("a2 is oldest")
+    if(a1>a3):
+        print("a3 is youngest")
+    else:
+        print("a2 is youngest")
+else:
+    print("a3 is oldest")
+    if(a2>a1):
+        print("a1 is youngest")
+    else:
+        print("a2 is youngest")
+
+15. n = int(input("Enter a number: "))
+if (n % 5 == 0 and n% 7 == 0):
+    print("Number {} is divisible by both 5 and 7".format(n))
+else:
+     print("Number {} is not divisible by both 5 and 7".format(n))

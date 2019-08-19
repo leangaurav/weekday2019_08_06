@@ -1,0 +1,73 @@
+#Q1 Predict the output. 
+#Anwer: 6 19
+
+#Q2 WAP to Predict the length of the string
+a=input("Please enter a string to predict it's length : ")
+print("The length of the string is ",len(a))
+
+#Q3 WAP to input 2 numbers and print their sum and difference
+ a=float(input("Please enter number 1 :"))
+b=float(input("Please enter number 2 :"))
+print('The sum of the two numbers is',a+b,'and their difference is',a-b)
+
+#Q4 Predict the output
+#Answer: abde
+
+#Q5 Predict the output
+#Answer: abde
+
+#Q6 Predict the output
+#Answer: abababab
+
+#Q7 Predict the output
+#Answer: ab
+#        ab
+#        ab
+#        ab
+
+#Q8 WAP to input a string s and a number n. Print the string n times on the screen, each should appear in a separate line.
+s=str(input("Please enter your string :"))
+n=int(input("Please enter the number of times you want the string to be repeated :"))
+print((s + '\n')*n)
+
+#Q9 Predict the output
+#Answer : Gaurav
+#         None
+
+#Q10 Predict the output
+#Answer : <class 'int'>
+
+#Q11 Predict the output
+#Answer: <class 'str'>
+#        27
+
+#Q12 Find the name of the function to find the square root
+#Answer : math.sqrt()
+
+#Q13 WAP to input a number and print its square root
+import math
+a=float(input("Please enter a number to find it's square root: "))
+print("The square root of the number is :",math.sqrt(a))
+
+#Q14 WAP to input 4 numbers from a user and print their avg.
+a=float(input("Please input number 1:"))
+b=float(input("Please input number 2:"))
+c=float(input("Please input number 3:"))
+d=float(input("Please input number 4:"))
+print("The average of the above given 4 numbers is ",(a+b+c+d)/4)
+
+#Q15 Use the help function to check what the abs function in python does.
+help(abs)
+
+#Q16 Output of a code on python interpretor
+#Answer: __main__
+
+#Q17 Output of a code from a python script
+#Answer: __main__
+
+#Q18 Does the dir of int class contain the attribute __name__
+#Answer : No
+
+#Q19 Predict the output.
+#Answer: __main__
+#        Error: Builtins does not have __name__

@@ -1,0 +1,56 @@
+
+1.f=float(input('Enter the temperature in Fahrenheit :'))
+  print('The temperature in celcius is ',(f-32)*(5/9))
+
+2.r=int(input('Please enter a number'))
+  print("Square of the number is ",r**2,"and cube is ",r**3)
+
+3.n=int(input('Please enter the value of n'))
+  m=int(input('Please enter the value of m'))
+  print("The value of n^2 + m^2 is ",(n*n)+(m*m))
+
+4.m=int(input('Please enter the value of m'))
+  n=int(input('Please enter the value of n'))
+  print("The value of m to the power of n is ",pow(m,n)) 
+
+5.p=int(input("enter the principal amount :"))
+  r=float(input("enter the rate of interest :"))
+  t=float(input("enter the time period :"))
+  print("Simple interest is",(p*r*t)/100)
+
+6.p=int(input("enter the principal amount :"))
+  r=float(input("enter the rate of interest yearly:"))
+  t=float(input("enter the time period in years :"))
+  print("The compound interest is",(p *((1+r/100)**t))-p)
+  print("The total amount is",(p *((1+r/100)**t)))
+
+7.n=int(input("Enter a number :"))
+  x = 0
+  i = 1 
+  while i <= n:
+        x = x + i
+        i = i+1    
+  print ("The sum of first",n,"natural number is ",x)
+
+8.a=int(input("enter the value of a :"))
+  b=int(input("enter the value of b :"))
+  m=a
+  a=b
+  b=m
+  print("The value of b is",b," and the value of a is ",a)
+
+
+9.ord(' ')
+
+10.a=input("enter a single character :")
+   print("The ascii value of the character is ",ord(a))
+
+11.a=float(input("enter the area of a circle :"))
+   print("Radius of the circle", (a/3.14)**0.5, " and the circumference is ", 2 * 3.4 * ((a/3.14)**0.5))
+
+12.a=float(input("enter marks obtained in subject a:"))
+   b=float(input("enter marks obtained in subject b:"))
+   c=float(input("enter marks obtained in subject c:"))
+   d=float(input("enter marks obtained in subject d:"))
+   e=float(input("enter marks obtained in subject e:"))
+   print("Percentage is",(a+b+c+d+e)/500*100)

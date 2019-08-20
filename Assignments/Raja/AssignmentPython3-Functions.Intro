@@ -1,0 +1,90 @@
+1. def swapfun(x,y):
+     print('before swapping the numbers : ',x,y)
+     z=0;
+     z=x;
+     x=y;
+     y=z;
+     print('After swapping the numbers :',x,y)
+     return (x,y)
+
+   print(swapfun(2,3))
+   
+2. import random as rd
+
+def randomfunc():
+    sum=0
+    x=0
+    while(x<4):
+        i=rd.randrange(0,26)
+        print(i)
+        sum=sum+i
+        x+=1
+    
+    print(sum)
+    avg = sum//4
+    return avg
+
+print(randomfunc())
+
+
+3. import string
+import random
+a=string.ascii_uppercase
+b=string.ascii_lowercase
+c=a+b
+i=random.randrange(0,52)
+print(c[i])
+
+
+4. def get_si(p,t,r):
+    si=0
+    si=p*t*r/100
+    return si
+print(get_si(1000,2,2))
+
+5. def get_amount(p,r=10,t=1):
+		get_si()
+
+print(get_amount())
+
+6. def get_ci(p,r,t):
+        ci = p*((1+(r/100))**t)
+        return ci
+
+print(get_ci(2000,10,2))
+
+7. def get_q_r(x,y):
+    z=x/y
+    return z
+
+print(get_q_r(20,5))
+
+8. def triangfunc(b,h):
+    t = 1/2 * b * h
+    return t
+
+b=int(input("Enter the base of the triangle:"))
+h=int(input("Enter the height of the triangle:"))
+print("The hypotenuse of the traingle is ",triangle(b,h))
+
+
+9. x = int(input("Enter time in seconds: "))
+day = x // (24 * 3600) 
+x = x % (24 * 3600)
+hour = x // 3600
+x %= 3600
+mins = x // 60
+x %= 60
+secs = x
+y="{}day {}hour {}minutess {}seconds".format(day,hour, mins,secs)
+print(y)
+
+
+10. from platform import python_version
+     print(python_version)
+	 
+11. 2 2
+
+12. None
+
+13.

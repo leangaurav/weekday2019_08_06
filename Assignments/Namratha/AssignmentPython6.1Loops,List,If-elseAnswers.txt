@@ -1,0 +1,79 @@
+1. str1 = input("Enter the string: ")
+   for i in str1:
+      print(i)
+
+2. str2 = input("Enter the string: ")
+   for i in str2:
+      print(ord(i))
+
+3. def odd_numbers (my_list):
+    total = 0
+    count = 0
+    for number in my_list:
+        if (number % 2 == 1):
+            total = total + number 
+        
+    return (total)
+
+
+my_list = []
+n = int(input("Enter the maximum length of a list: "))
+while (len(my_list) < n):
+    item = int(input ("Enter integer value to the list: "))
+    my_list.append(item)
+print ("This is your list: ", my_list)
+result = odd_numbers(my_list)
+print (result)
+
+4. n = int(input("Enter the maximum length of a list: "))
+while (len(my_list1) < n):
+    item = int(input ("Enter integer value to the list: "))
+    my_list1.append(item)
+print ("This is your list: ", my_list1)
+t = tuple(my_list1)
+print(t)
+
+x = int(input("Enter a new number: "))
+my_list1.append(x)
+print(t.index(x))
+
+10.i.0
+   Loop Ends
+
+ii.with exit()- exception occurs
+but with exit output is :
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Loop ends
+
+11. *****                      
+    *****
+    *****
+    *****
+    *****
+ 
+
+*
+**
+***
+****
+
+1
+22
+333
+4444
+55555
+
+**
+***
+****
+*****
+******

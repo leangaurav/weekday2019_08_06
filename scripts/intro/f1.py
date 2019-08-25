@@ -1,2 +1,3 @@
-print('Gaurav')
-1+1 # this won't get printed
+f = open('file.text','w')
+print("Python Programming", file=f)
+f.close()

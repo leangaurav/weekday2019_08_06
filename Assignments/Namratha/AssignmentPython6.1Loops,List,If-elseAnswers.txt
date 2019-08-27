@@ -37,6 +37,67 @@ x = int(input("Enter a new number: "))
 my_list1.append(x)
 print(t.index(x))
 
+OR
+
+a = [11,20,21,30]
+s = 0
+for data in a:
+    s += (data * (data%2))
+print(s)
+
+5. import random
+my_random = []
+my_random_even = []
+total = 0
+for i in range(10):
+    my_random.append(random.randrange(1,40))
+    total = total + my_random[i]
+
+print("The list is: ",my_random)
+print("Sum of the numbers is: ",total)
+print("Average is: ",total/10)
+for j in my_random :
+    if (j% 2 == 0):
+        my_random_even.append(j)
+print("The list with even numbers is: ", my_random_even)
+
+6. mylist1 = []
+tot = 0
+for _ in range(10):
+    n = int(input("Enter the number"))
+    mylist1.append(n)
+    tot += n
+    
+print("The list is: ",mylist1)
+print("Sum is: ",tot)
+
+7. num = int(input("Enter the number to print its tables"))
+for i in range(1,11):
+    print("{} X {} = ".format(num,i),num*i)
+
+8.  str1 = input("Enter the string: ")
+    print(str1.count(' '))
+
+OR
+   str2 = input("Enter the string: ")
+   count = 0
+   for i in str2:
+       if (i == " "):
+           count += 1
+   print("The number of spaces in the given string is: ",count)
+     
+9. def is_vowel(str3):
+    count = 0
+    vowel = set("aeiouAEIOU")
+
+    for j in str3:
+        if j in vowel:
+            count += 1
+    print("The number of vowels in the given string is: ",count)
+
+str3 = input("Enter the string: ")
+is_vowel(str3)
+
 10.i.0
    Loop Ends
 

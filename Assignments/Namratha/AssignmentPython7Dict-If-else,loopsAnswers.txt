@@ -1,0 +1,110 @@
+1. d= {}
+for c in range(1,6):
+    d[c] = -c
+print(d)
+
+2.  d = {1= 2, 2= 3} - Invalid syntax
+    d = {1: 2, 2: 3} - valid syntax
+    d = {1,2; 2,3}- Invalid syntax
+    d = {(1,2), (2,3)}- valid syntax
+    d = {'a':'A','b':1,c:[1234]}- Invalid syntax
+    d = {'a':'A','b':1,'c':[1234]}- valid syntax
+    d = dict([(1,2),(3,4)])- valid syntax
+    d = dict((1,2),(3,4))- Invalid syntax
+    d = dict(((1,2),(3,4)])- Invalid syntax
+    d = dict(((1,2),(3,4)))- valid syntax
+    d = dict(x=2,y=3)- valid syntax
+    = dict('x'=2,'y'=3)- Invalid syntax
+    = dict(1=2,2=3)- Invalid syntax
+
+3. l1 = [1,2,3,4]
+l2 = [10,20,30,40]
+dictionary = dict(zip(l1,l2))
+print(dictionary)
+
+4. a = []
+b = []
+for i in range(65,91):
+    a.append(chr(i))
+    b.append(i)
+
+d1 = dict(zip(a,b))
+print(d1)
+
+5. num = int(input("Enter the number: "))
+word = ''
+if(num == 1):
+    word = 'one'
+elif num == 2:
+    word = 'two'
+elif num == 3:
+    word = 'three'
+elif num == 4:
+    word = 'four'
+elif num == 5:
+    word = 'five'
+elif num == 6:
+    word = 'six'
+elif num == 7:
+    word = 'seven'
+elif num == 8:
+    word = 'eight'
+elif num == 9:
+    word = 'nine'
+else:
+    word = 'not sure'
+
+print(word)
+
+num = [1,2,3,4,5,6,7,8,9]
+word = ['one','two','three','four','five','six','seven','eight','nine']
+diclist = dict(zip(num,word))
+print(diclist)
+print(diclist.keys())
+print(diclist.values())
+print(diclist.items())
+
+6. {'A': 'Apple', 'B': 'Ball', 'C': 'Cat', 'D': 'Dog'}
+   {'A': 'Apple', 'C': 'Cat'}
+
+7. str1 = input("Enter the string: ")
+vowel = "aeiou"
+count = {}.fromkeys(vowel,0)
+for x in str1:
+    if x in vowel:
+        count[x]+=1
+print(count)
+
+8. ip_str = input("Enter the string: ")
+
+count1 = {}
+
+for char in ip_str:
+    
+    if char in count1:
+        count1[char] += 1
+    else:
+        count1[char]=1
+
+print(count1)
+
+OR 
+  
+from collections import Counter 
+  
+test_str =  input("Enter the string: ")
+  
+# using collections.Counter() to get  
+# count of each element in string  
+res = Counter(test_str) 
+
+print (res)
+
+9.str2 = input("Enter the string: ")
+words = str2.split()
+di = {}
+for i in words:
+    di[i] = di.get(i,0)+1
+
+print(di)
+

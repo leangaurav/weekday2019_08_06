@@ -1,0 +1,52 @@
+1. x = int(input("Enter the value: "))
+double = lambda x: x**2
+print(double(x))
+inv = lambda x: 1/x
+print(inv(x))
+neg = lambda x: -x
+print(neg(x))
+
+2.  from functools import reduce
+f = lambda a,b: a if (a > b) else b
+reduce(f, [47,11,42,102,13])
+
+3. def map_multiple(functs, sequence):
+    res = []
+    for func in functs:
+        res.append(func(x))
+    return res
+
+family_of_functions = (lambda c: c**2, lambda c: 1/c, lambda c: -c)
+print(map_multiple(family_of_functions,[1,2,4]))
+
+4. 50
+
+5. [1.0, 0.5, 0.25, 0.125]
+
+6. test_list = [1,2,'this','that','0','1.99',10]
+print ("Is test_int integer? : " + str(isinstance(test_list, int)))
+new_list = list(filter(lambda x: isinstance(x, int), test_list))
+print(new_list)
+
+7. without using map
+l = ['5ft10','5ft3','6ft2']
+l1 = []
+def convert(l):
+    for height in l:
+        h = height.split('ft')
+        feet = int(h[0])
+        inches = int(h[1])
+        tot_inches = feet*12 + inches
+        meters = tot_inches * 0.0254
+        l1.append(meters)
+    return l1
+
+#result = map(convert(), l) 
+res = convert(l)
+print(res)
+
+8. def my_map(my_function, my_list):
+    result = []
+    for i in my_list:
+        result.append(my_function(i))
+    return result
